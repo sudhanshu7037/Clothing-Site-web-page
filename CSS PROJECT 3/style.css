@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+
+}
+#main{
+  
+  height: 100%;
+  width: 100%;
+  
+}
+#nav{
+  height: 80px;
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0 30px;
+}
+#nav h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav i{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 500;
+}
+#center{
+  
+  width: 100%;
+ 
+  padding: 40px 80px;
+
+}
+#center h1{
+  font-size: 4.1vw;
+  font-weight: 4.3vw;
+ 
+  
+
+}
+#center-in{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+  margin-top: 20px;
+
+}
+#center-in p{
+  font-size: 1.17vw;
+  font-weight: 500;
+  line-height: 1.8vw;
+}
+#right{
+  width: 20%;
+}
+.elem{
+
+ padding: 18px 0;
+ border-top: 2px solid black;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+.elem i{
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0;
+}
+.elem a{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+.elem:hover i{
+opacity: 1;
+background-color: aliceblue;
+}
+#bottom {
+  height: 19%;
+  width: 100%;
+  background-color: aqua;
+  background-image: url(https://media.istockphoto.com/id/1317446149/photo/happy-young-african-american-woman-smiling-with-arms-crossed-and-looking-away-against-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=eUf-euVYSPm3bgI06HlvL-mjXVDAl6Pe4um8xt9pi-g=);
+  background-size: cover;
+  background-position: 0 23%;
+}
+@media (max-width:600px){
+  #nav{
+    height: 60px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  #nav h4{
+    font-size: 12px;
+    font-weight: 600;
+    
+  }
+  #nav i{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 50%;
+    font-weight: 500;
+  }
+  #center{
+  
+    width: 100%;
+   
+    padding: 15px 20px;
+  
+  }
+  #center h1{
+    font-size: 10.8vw;
+    font-weight: 13vw;
+   
+    
+  
+  }
+  #center-in{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 22px;
+  
+  }
+  #center-in p{
+    font-size: 3.3vw;
+    font-weight: 500;
+    line-height: 4.8vw;
+  }
+  #right{
+    width: 100%;
+  }
+  .elem{
+  
+   padding: 10px 0;
+   border-top: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+  }
+  .elem i{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+  }
+  .elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .elem:hover i{
+  opacity: 1;
+  background-color: aliceblue;
+  }
+  #bottom {
+    height: 32.1%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(https://media.istockphoto.com/id/1317446149/photo/happy-young-african-american-woman-smiling-with-arms-crossed-and-looking-away-against-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=eUf-euVYSPm3bgI06HlvL-mjXVDAl6Pe4um8xt9pi-g=);
+    background-size: cover;
+    background-position: 0 23%;
+  }
+}
+
